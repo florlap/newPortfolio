@@ -1,18 +1,18 @@
 import React from 'react'
-
+import{Link } from 'react-router-dom'
 
 
 const Navbar = () => {
   return (
     <div>
         <div>
-            Sobre mi
+          <Link to= '/about'>Sobre mi </Link>
         </div>
         <div>
-            Proyectos
+          <Link to= '/projects'>Proyectos</Link>
         </div>
         <div>
-            Contacto
+          <Link to= '/contact'> Contacto</Link>
         </div>
     </div>
   )
