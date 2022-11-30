@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <h1> Este es el nuevo portfolio</h1>
    <React.StrictMode>
-    <App />
+   <App/>
    </React.StrictMode>
 );
 

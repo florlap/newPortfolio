@@ -11,19 +11,12 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 
+
+
 function App() {
   return (
-    <div className="App">
-      
-       {/* <div>
-        <Navbar/>
-      </div>
-      <div>
-        <About/>
-      </div>
-      <div>
-        <Footer/>
-      </div>   */}
+   
+    <div >
     <BrowserRouter>
      <Routes>
       <Route path='/' element={<Home/>} />
@@ -31,7 +24,7 @@ function App() {
       <Route path='/projects' element={<Projects/>} />
       <Route path='/contact' element={<Contact/>}/>
      </Routes>
-    </BrowserRouter>
+    </BrowserRouter> 
     </div>
   );
 }

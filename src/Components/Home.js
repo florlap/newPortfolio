@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
   
-       <div>
+      <div className='navbar_container'>
        <Navbar/>
       </div>
       <div>
